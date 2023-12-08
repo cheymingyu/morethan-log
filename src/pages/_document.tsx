@@ -12,10 +12,10 @@ class MyDocument extends Document {
             sizes="180x180"
             href="/apple-icon-180x180.png"
           ></link>
-          <link rel="shortcut icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-          <link rel="manifest" href="/manifest.json">
-          <meta name="msapplication-TileColor" content="#ffffff">
-          <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+          <link rel="shortcut icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png" />
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="msapplication-TileColor" content="#ffffff" />
+          <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff"></meta>
           <link
             rel="alternate"
