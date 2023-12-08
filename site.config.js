@@ -35,13 +35,13 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
@@ -49,7 +49,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",  // 코멘트 연결하는 부분 / 고쳐야함
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
