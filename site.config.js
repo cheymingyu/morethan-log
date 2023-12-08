@@ -2,13 +2,13 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "MINGYU",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/image.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "AI Engineer",
     bio: "대학원생",
     email: "mingyu.chey@gmail.com",
-    linkedin: "https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EC%B5%9C-1136752a3/",
+    linkedin: "mingyu-choi-1136752a3",
     github: "cheymingyu",
-    instagram: "https://www.instagram.com/mingyu3314/",
+    instagram: "mingyu3314",
   },
   // projects: [
   //   {
@@ -19,11 +19,11 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "min-gyu-log",
-    description: "welcome to morethan-log!",
+    description: "welcome to min-gyu-log!",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://min-gyu-log.vercel.app",
   since: 2023, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
