@@ -49,7 +49,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",  // 코멘트 연결하는 부분 / 고쳐야함
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
